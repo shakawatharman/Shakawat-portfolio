@@ -1,0 +1,113 @@
+a{
+    text-decoration: none;
+}
+.gray-bg {
+    background-color: #e1e1e1;
+}
+.person-img{
+    background-image: url(../../../Resources/shakawat.jpg);
+    height: 380px;
+    background-position: center top;
+    background-size: cover;
+}
+.about-left-content {
+    position: relative;
+}
+.person-meta {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+    color: #fff;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.person-meta h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.person-meta:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000;
+    opacity: .5;
+}
+.social-links a {
+    color: #fff;
+    margin: 0 11px;
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    display: inline-block;
+    border-radius: 50px;
+    background: #000;
+    transition: .3s
+}
+
+.social-links a:hover {
+    color: #000;
+    background: #fff;
+}
+
+.about-right-content h2 {
+    font-size: 26px;
+}
+
+.about-right-content {
+    line-height: 1.7;
+}
+
+.about-right-content .box-btn {
+    margin-top: 20px;
+}
+a.box-btn {
+    background-color: #fe320a;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius:15px
+}
+
+.section-title {
+    padding: 30px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.section-title h1 span {
+    color: #fe320a;
+}
+
+.section-title h2 {
+    position: relative;
+}
+
+.section-title h1:before {
+    position: absolute;
+    bottom: 30px;
+    content: "";
+    background: #fe320a;
+    height: 2px;
+    width: 130px;
+    margin-left: -65px;
+    left: 50%;
+}
+.section-title h1:after {
+    position: absolute;
+    bottom: 26px;
+    content: "";
+    background: #fe320a;
+    height: 11px;
+    width: 11px;
+    margin-left: -5px;
+    border-radius: 50px;
+    left: 50%;
+}
