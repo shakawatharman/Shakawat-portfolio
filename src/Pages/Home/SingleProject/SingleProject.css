@@ -1,0 +1,7 @@
+.project-image{
+    max-height: 350px;
+}
+.project-image  img {
+    object-fit: cover;
+    height: 250px;
+}
