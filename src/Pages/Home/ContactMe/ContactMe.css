@@ -1,0 +1,14 @@
+.email-form{
+    margin-top: '50px';
+    width:'50%';
+    background-image: url('../../../Resources/email.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.email-form h1{
+    margin-top: 25px;
+}
+.email-form form {
+    margin: 25px 85px 75px 100px;
+}
