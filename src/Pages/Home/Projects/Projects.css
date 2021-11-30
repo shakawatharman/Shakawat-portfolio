@@ -1,3 +1,6 @@
 .projects-container{
     padding-top: 80px;
 }
+.projects-container h1 span {
+    color: #fe320a;
+}

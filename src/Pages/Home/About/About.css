@@ -100,8 +100,7 @@ a.box-btn {
     /* background: #000; */
     transition: .3s
 }
+.about-section{
+    padding: 50px 0;
+}
 
-/* .social-links NavLink:hover {
-    color: #000;
-    background: #fff;
-} */

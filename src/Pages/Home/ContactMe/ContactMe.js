@@ -18,7 +18,7 @@ const ContactMe = () => {
         e.target.reset()
     }
     return (
-        <div className="container border email-form">
+        <div className="container border section-padding email-form">
             <h1>Send Your Message</h1>
             
             <form className="row text-start" onSubmit={sendEmail}>

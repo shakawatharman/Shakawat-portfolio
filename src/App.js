@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './Pages/Home/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Projects from './Pages/Home/Projects/Projects';
+import Blogs from './Pages/Blogs/Blogs';
 
 function App() {
   return (
@@ -20,8 +21,11 @@ function App() {
         <Route path="/home">
         <Home></Home>
         </Route>
-        <Route path="/projects">
+        <Route path="/projects/:projectId">
         <Projects></Projects>
+        </Route>
+        <Route path="/blogs">
+          <Blogs></Blogs>
         </Route>
       </Switch>
       <Footer></Footer>

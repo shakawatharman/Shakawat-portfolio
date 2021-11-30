@@ -1,17 +1,26 @@
 import React from 'react';
-import TextAnimation from 'react-animate-text';
 import {Button} from 'react-bootstrap';
+import { useHistory } from "react-router";
 import './SingleProject.css';
 
 const SingleProject = ({singleProject}) => {
 
-    const {projectName, thumbnail} = singleProject;
+    const history = useHistory()
+
+    const handleProjectDetails=()=>{
+        history.push(`/projects/${id}`)
+    }
+
+    const {projectName, thumbnail, id} = singleProject;
     return (
         
-                <div className="col-md-4 project-image border">
+                <div className="col-md-4 project-image border shadows">
                     <img className="img-fluid" src={thumbnail} alt={projectName} />
-                    <TextAnimation><h3 className="text-danger">{projectName}</h3> </TextAnimation> 
-                    <Button className="px-5">Details</Button>
+
+                    <div className="my-3">
+                        <h3 className="text-danger">{projectName}</h3>
+                        <Button onClick={handleProjectDetails} className="px-5">Details</Button>
+                    </div>
                 </div>
            
     );
