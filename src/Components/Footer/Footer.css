@@ -2,6 +2,7 @@
 .site-footer {
     padding: 10rem 0 3rem 0;
     background-color: #011220de;
+    margin-top: 100px;
   }
   
   .site-footer--with-clipmask {
@@ -28,11 +29,11 @@
     height: 1.5rem;
     display: inline-block;
     vertical-align: middle;
+    
   }
   
   .site-social {
     text-align: center;
-    width: 50rem;
     margin: 2rem auto;
     display: flex;
     align-items: center;
@@ -62,5 +63,8 @@
     display: block;
     fill: #fff;
   }
-  
+  .site-social__list svg {
+    width: 40px;
+    fill: #fff;
+  }
   
