@@ -1,0 +1,37 @@
+/* style=" */
+
+.single-homepage-slide {
+    background-image: url(../../../Resources/close-up-engineer-hands-typing-keyboard-home-office.jpg);
+    padding-bottom: 100px;
+    position: relative;
+    color: #fff;
+    padding-top: 225px;
+    z-index: 1;
+     background-position: center; 
+    background-size: cover;
+}
+
+.single-homepage-slide:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #000;
+    z-index: -1;
+    opacity: .42;
+}
+
+.slide-text {
+    padding: 0 15px;
+    line-height: 1.8;
+}
+
+.slide-text h2 {
+    font-size: 60px;
+}
+
+.slide-text span {
+    color: #fe320a;
+}
