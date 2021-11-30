@@ -1,19 +1,20 @@
 import React from 'react';
 import { Container,Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
     return (
-        <div>
+        <div className="fixed-top">
  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">SHAKAWAT HOSSAIN</Navbar.Brand>
+  <Navbar.Brand className="text-danger" href="#home">SHAKAWAT HOSSAIN</Navbar.Brand>
+  
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
-      <Nav.Link to="/home">Home</Nav.Link>
-      <Nav.Link target="_blank" href="https://drive.google.com/file/d/1H7NRmvRZ_4tdGIM3pGy6242YkuYJY3Wm/view?usp=sharing">Resume</Nav.Link>
-      <Nav.Link to="/projects">Projects</Nav.Link>
-      <Nav.Link to="/aboutme">About Me</Nav.Link>
+      <Nav.Link className="text-white" as={Link} to="/home">Home</Nav.Link>
+      <Nav.Link className="text-white" target="_blank" href="https://drive.google.com/file/d/1H7NRmvRZ_4tdGIM3pGy6242YkuYJY3Wm/view?usp=sharing">Resume</Nav.Link>
+      
      
     </Nav>
   

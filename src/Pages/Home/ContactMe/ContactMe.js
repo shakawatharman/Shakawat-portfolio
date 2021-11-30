@@ -14,6 +14,8 @@ const ContactMe = () => {
         ).then(res=>{
             console.log(res)
         }).catch(err=>{console.log(err)})
+        alert('Thanks for your message!')
+        e.target.reset()
     }
     return (
         <div className="container border email-form">
