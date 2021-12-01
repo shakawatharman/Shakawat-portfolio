@@ -4,8 +4,8 @@ import Home from './Pages/Home/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './Pages/Home/Header/Header';
 import Footer from './Components/Footer/Footer';
-import Projects from './Pages/Home/Projects/Projects';
 import Blogs from './Pages/Blogs/Blogs';
+import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Home></Home>
         </Route>
         <Route path="/projects/:projectId">
-        <Projects></Projects>
+        <ProjectDetails></ProjectDetails>
         </Route>
         <Route path="/blogs">
           <Blogs></Blogs>

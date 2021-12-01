@@ -5,7 +5,7 @@ import './SingleProject.css';
 
 const SingleProject = ({singleProject}) => {
 
-    const history = useHistory()
+    const history = useHistory();
 
     const handleProjectDetails=()=>{
         history.push(`/projects/${id}`)

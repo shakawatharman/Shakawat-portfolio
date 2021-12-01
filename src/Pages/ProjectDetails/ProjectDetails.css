@@ -1,0 +1,7 @@
+.detail-card{
+    margin-top: 150px;
+    height: 550px;
+}
+.detail-card img {
+    max-height: 450px;
+}
