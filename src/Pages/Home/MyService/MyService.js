@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaDesktop, FaMouse, FaMobileAlt } from "react-icons/fa";
 
 const MyService = () => {
     return (
@@ -13,31 +14,34 @@ const MyService = () => {
                 <div class="row">
                 
                     <div class="col-md-4 col-sm-4 text-center">
-                        <div class="single-service-section wow fadeInUp">
+                        <div class="single-service-section">
                             <div class="service-icon"><i class="fa fa-phone"></i></div>
-                            <h3>Web Design</h3>
-                            <p>I'm a Web Developer, as well as I'm a Web Designer. If you provide a pre-built template, I can develop this. But if you don't provide your site design, then I may handle designing too.</p>
-                            {/* <p> */}
+                            <h3 className="mb-2 mt-5">Web Design</h3>
+                            <FaMouse color="orange" fontSize="4em" />
+                            <p className="mt-3 mb-5">I'm a Web Developer, as well as I'm a Web Designer. If you provide a pre-built template, I can develop this. But if you don't provide your site design, then I may handle designing too.</p>
+                            
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 text-center">
-                        <div class="single-service-section wow fadeInUp">
+                        <div class="single-service-section">
                             <div class="service-icon">
                                 <div class="service-icon"><i class="fa fa-support"></i></div>
                             </div>
-                            <h3>Web Development</h3>
-                            <p>I'm a MERN Stack Developer. I'm a certified developer from a renowned institution named as Programming Hero. Feel free to contact me for developing your website.</p>
-                            {/* <p> */}
+                            <h3 className="mb-2 mt-5">Web Development</h3>
+                            <FaDesktop color="orange" fontSize="4em" />
+                            <p className="mt-3 mb-5">I'm a MERN Stack Developer. I'm a certified developer from a renowned institution named as Programming Hero. Feel free to contact me for developing your website.</p>
+                           
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 text-center">
-                        <div class="single-service-section wow fadeInUp">
+                    <div class="col-md-4 col-sm-4 text-center border-left">
+                        <div class="single-service-section">
                             <div class="service-icon">
                                 <div class="service-icon"><i class="fa fa-download"></i></div>
                             </div>
-                            <h3>Responsive Website</h3>
-                            <p>I'm always responsible for any of my project. I will make sure that the website will be well responsive for Computer device, Mobile device. Contact me to make a responsible website for you.</p>
-                            {/* <p> */}
+                            <h3 className="mb-2 mt-5">Responsive Website</h3>
+                            <FaMobileAlt color="orange" fontSize="4em" />
+                            <p className="mt-3 mb-5">I'm always responsible for any of my project. I will make sure that the website will be well responsive for Computer device, Mobile device. Contact me to make a responsible website for you.</p>
+                            
                         </div>
                     </div>
                 </div>
