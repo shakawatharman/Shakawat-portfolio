@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="fixed-top">
  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand className="text-danger fw-bold" href="#home">SHAKAWAT HOSSAIN</Navbar.Brand>
+  <Navbar.Brand className="text-danger fw-bold" href="/home">SHAKAWAT HOSSAIN</Navbar.Brand>
   
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

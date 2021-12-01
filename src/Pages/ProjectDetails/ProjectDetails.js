@@ -36,7 +36,7 @@ const ProjectDetails = () => {
                     </h4>
                 </div>
             </div>
-            <hr />
+          
             <div className="row detail-card">
                 <div className="col-md-8">
                     <img className="img-fluid" src={project?.image2} alt="" />
@@ -55,7 +55,7 @@ const ProjectDetails = () => {
                     </h4>
                 </div>
             </div>
-            <hr />
+           
             <div className="row detail-card">
                 <div className="col-md-8">
                     <img className="img-fluid" src={project?.image3} alt="" />
@@ -79,9 +79,9 @@ const ProjectDetails = () => {
                 <h2 className="mb-3">Explore My Works</h2>
 
                <div className="d-flex justify-content-around border p-5 shadow">
-               <Button className="w-25" href={project?.livesite} variant="primary" size="lg">Preview</Button>
-                <Button className="w-25" href={project?.client}  variant="primary" size="lg">Server Side</Button>
-                <Button className="w-25" href={project?.server} variant="primary" size="lg">Client Side</Button>
+               <Button href={project?.livesite} variant="primary" size="md">Preview</Button>
+                <Button href={project?.client}  variant="primary" size="md">Server Side</Button>
+                <Button href={project?.server} variant="primary" size="md">Client Side</Button>
                </div>
             </div>
         </div>
