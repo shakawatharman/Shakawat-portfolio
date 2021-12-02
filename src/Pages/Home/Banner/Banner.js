@@ -15,7 +15,7 @@ const Banner = () => {
                                 <p className="">Hello, I'm a Junior Web Developer. I'm ready to be hired as a MERN Stack Web Developer. <br /> 
                                 If need service for designing and developing your website, feel free to contact with me.
                                 </p>
-                                <NavLink target="_blank" href="https://drive.google.com/file/d/1H7NRmvRZ_4tdGIM3pGy6242YkuYJY3Wm/view?usp=sharing" className="box-btn">Hire Me</NavLink>
+                                <NavLink data-aos="zoom-in" target="_blank" href="https://drive.google.com/file/d/1H7NRmvRZ_4tdGIM3pGy6242YkuYJY3Wm/view?usp=sharing" className="box-btn">Hire Me</NavLink>
                             </div>
                         </div>
                     </div>

@@ -7,13 +7,13 @@ const MyService = () => {
         <div id="services" class="service-section section-padding smooth-scrolling">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
+                    <div data-aos="fade-down" class="col-md-12 text-center">
                         <div class="section-title"><h1>My <span>Services</span></h1></div>
                     </div>
                 </div>
                 <div class="row">
                 
-                    <div class="col-md-4 col-sm-4 text-center">
+                    <div class="col-md-4 col-sm-4 text-center"data-aos="fade-right">
                         <div class="single-service-section">
                             <div class="service-icon"><i class="fa fa-phone"></i></div>
                             <h3 className="mb-2 mt-5">Web Design</h3>
@@ -22,7 +22,7 @@ const MyService = () => {
                             
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 text-center">
+                    <div class="col-md-4 col-sm-4 text-center"data-aos="fade-down">
                         <div class="single-service-section">
                             <div class="service-icon">
                                 <div class="service-icon"><i class="fa fa-support"></i></div>
@@ -33,7 +33,7 @@ const MyService = () => {
                            
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 text-center border-left">
+                    <div class="col-md-4 col-sm-4 text-center border-left" data-aos="fade-left">
                         <div class="single-service-section">
                             <div class="service-icon">
                                 <div class="service-icon"><i class="fa fa-download"></i></div>
